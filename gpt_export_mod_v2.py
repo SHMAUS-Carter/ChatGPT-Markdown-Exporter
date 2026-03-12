@@ -1,3 +1,7 @@
+# gpt_export_mod_v2.py
+# Version: 2026.03.12
+# Description: Export ChatGPT conversation JSON to Obsidian-compatible Markdown with YAML safety and media logging.
+
 import re
 import json
 import os
