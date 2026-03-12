@@ -1,7 +1,7 @@
 # gpt_export.py
 # Version: 2025.03.30
 # Description: Export ChatGPT conversation JSON to Obsidian-compatible Markdown with YAML safety and media logging.
-# (Full script goes here...)
+
 import re
 import json, os, hashlib, time
 from datetime import datetime
