@@ -1,6 +1,6 @@
 # ChatGPT-Markdown-Exporter
 
-This Python script converts your exported `conversations.json` from ChatGPT into neatly organized Markdown files compatible with Obsidian or any Markdown-based note system.
+This Python script converts your exported `conversations-*.json` from ChatGPT into neatly organized Markdown files compatible with Obsidian or any Markdown-based note system.
 
 ## Features
 
@@ -19,14 +19,14 @@ This Python script converts your exported `conversations.json` from ChatGPT into
 
 ## Usage
 
-1. Place your exported `conversations.json` in the script directory.
+1. Place your exported `conversations-*.json` in the script directory defined in the script.
 2. Run the script:
    ```bash
-   python3 export_chatgpt.py
+   python3 gpt_export_mod_v2
    ```
 3. Output is saved to:
    ```
-   gpt_export_markdown/
+   gpt_export_markdown_new_format/
      ├── conversations/
      ├── media_references.txt
      └── index.md
